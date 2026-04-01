@@ -1,0 +1,22 @@
+[
+  {
+    "id": "modepi.com",
+    "name": "ModePi",
+    "nameEn": "",
+    "url": "https://modepi.com/",
+    "avatar": "https://n.modepi.com:12138/head.png",
+    "sloganZh": "迷失的人迷失了，相逢的人会再相逢",
+    "sloganEn": "",
+    "createdAt": "2026-04-01"
+  },
+  {
+    "id": "qiao7.xyz",
+    "name": "妄想7号店",
+    "nameEn": "",
+    "url": "https://www.qiao7.xyz/",
+    "avatar": "https://secure.gravatar.com/avatar/d3b5420ccad819beb34c45335c968298",
+    "sloganZh": "qiao7的充满各种杂物的博客",
+    "sloganEn": "",
+    "createdAt": "2026-04-01"
+  }
+]

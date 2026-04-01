@@ -1,0 +1,22 @@
+name: Validate Friends Links
+
+on:
+  pull_request:
+    paths:
+      - 'data/friends.json'
+      - 'scripts/validate-friends.mjs'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate friends data
+        run: node scripts/validate-friends.mjs
